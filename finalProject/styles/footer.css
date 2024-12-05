@@ -1,0 +1,30 @@
+/* Footer styles */
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer div {
+    background-color: #3a3a3a;
+    padding: 20px;
+}
+
+footer div:hover {
+    background-color:  #676868;
+}
+
+footer a {
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #cea135;
+}

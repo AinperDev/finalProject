@@ -1,0 +1,75 @@
+/* Nav styles */
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #cea135;
+}
+
+.explore {
+    color: #ffd700;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-buttons button {
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.auth-buttons .create {
+    background-color: #676868;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.auth-buttons .create:hover {
+    background-color: #3a3a3a;
+}
+
+.auth-buttons .create i {
+    color:  #1e874b;
+}
+
+.auth-buttons .create i {
+    color:  #1e874b;
+}
+
+.auth-buttons .login {
+    background-color: #676868;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.auth-buttons .login:hover {
+    background-color: #3a3a3a;
+}
+
+.auth-buttons .signup {
+    background-color: #676868;
+    color: #fff;
+    transition: background-color 0.3s;
+    padding: 10px 30px;
+}
+
+.auth-buttons .signup:hover {
+    background-color: #3a3a3a;
+}
